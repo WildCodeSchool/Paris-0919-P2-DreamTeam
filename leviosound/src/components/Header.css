@@ -1,0 +1,17 @@
+.Header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* align-self: center; */
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.header-itemMenu {
+    margin: 0 10px 0 0;
+ }
