@@ -2,7 +2,7 @@ import React from 'react'
 
 const WeatherMusic = () => {
     return (
-        <div>WeatherMusic</div>
+        <div>Weather Music</div>
     )
 }
 

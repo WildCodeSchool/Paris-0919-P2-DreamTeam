@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: flex-end;
     /* align-self: center; */
+    background-color: grey;
 
 }
 
@@ -14,4 +15,5 @@ ul {
 
 .header-itemMenu {
     margin: 0 10px 0 0;
+    background-color: snow;
  }
