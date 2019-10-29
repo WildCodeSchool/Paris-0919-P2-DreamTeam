@@ -4,9 +4,11 @@
     justify-content: flex-end;
     /* align-self: center; */
     background-color: grey;
-
+    
 }
-
+a {
+    text-decoration: none;
+}
 ul {
     display: flex;
     flex-direction: row;
@@ -16,4 +18,5 @@ ul {
 .header-itemMenu {
     margin: 0 10px 0 0;
     background-color: snow;
- }
+ 
+}
