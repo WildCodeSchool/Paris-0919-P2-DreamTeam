@@ -1,2 +1,3 @@
 # Paris-0919-P2-DreamTeam
-Que la force soit qvec toi!
+
+Création du composant searchbar finis en attente pour intégration
