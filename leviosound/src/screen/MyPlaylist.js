@@ -1,9 +1,9 @@
 import React from 'react'
 
-const WeatherMusic = () => {
+const MyPlaylist = () => {
     return (
         <div>Weather Music</div>
     )
 }
 
-export default WeatherMusic
+export default MyPlaylist
