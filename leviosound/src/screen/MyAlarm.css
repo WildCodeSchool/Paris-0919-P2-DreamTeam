@@ -14,7 +14,7 @@
   }
   .container .menu {
     height: 50px;
-    background: coral;
+    background: #ccc1ff;
   }
   .container .post {
     background: #2196F3;
@@ -22,9 +22,9 @@
   }
   .container .sidebar {
     flex: 1 0;
-    background: orange;
+    background: #ffeafe;
   }
   .container .footer {
-    background: navy;
+    background: #ccc1ff;
     height: 50px;
   }

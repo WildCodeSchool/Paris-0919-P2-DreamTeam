@@ -1,19 +1,42 @@
 .Header-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    /* align-self: center; */
-    background-color: grey;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  /* align-self: center; */
+  background-color: #9ea9f0;
+  align-items: center;
 }
 
 ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
 }
 
 .header-itemMenu {
-    margin: 0 10px 0 0;
-    background-color: snow;
- }
+  margin: 0 10px 0 0;
+  background-color: snow;
+}
+
+p.titre {
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-self: flex-start;
+  /* align-self: center; */
+  color: #553c8b;
+  margin: 0px;
+  padding-right: 22vw;
+  /* position: absolute; */
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  font-family: "Mystery Quest", cursive;
+  font-size: 5vw;
+  filter:drop-shadow(0 0 5px snow);
+}
+
+@media screen and (max-width: 400px) {
+  p.titre {
+    padding-right: 0vw;
+    font-size:6vw;
+  }
+}
