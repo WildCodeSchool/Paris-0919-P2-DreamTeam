@@ -1,10 +1,10 @@
 import React from 'react'
-import './MyAlarm.css'
+import './MyPlaylist.css'
 
-const MyAlarm = () => {
+const MyPlaylist = () => {
     return (
         <div class="container">
-      <div class="menu">My Alarm</div>
+      <div class="menu">My Playlist</div>
       <div class="post">POST</div>
       <div class="sidebar">SIDEBAR</div>
       <div class="footer">FOOTER</div>
@@ -12,4 +12,4 @@ const MyAlarm = () => {
     )
 }
 
-export default MyAlarm
+export default MyPlaylist

@@ -6,7 +6,7 @@ import {
 
 import Header from "./components/Header"
 import Home from './screen/Home';
-import WeatherMusic from './screen/weatherMusic';
+import MyPlaylist from './screen/MyPlaylist';
 import MyAlarm from './screen/MyAlarm';
 import './App.css';
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Header />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="/weather" component={WeatherMusic} />
+          <Route path="/weather" component={MyPlaylist} />
           <Route path="/MyAlarm" component={MyAlarm} />
         </Switch>
     </div>

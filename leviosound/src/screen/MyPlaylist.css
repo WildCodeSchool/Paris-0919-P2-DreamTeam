@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .container * {
+    flex: 1 100%;
+    margin: 10px;
+    height: 150px;
+    display: flex;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container .menu {
+    height: 50px;
+    background: coral;
+  }
+  .container .post {
+    background: #2196F3;
+    flex: 3 0;
+  }
+  .container .sidebar {
+    flex: 1 0;
+    background: orange;
+  }
+  .container .footer {
+    background: navy;
+    height: 50px;
+  }
