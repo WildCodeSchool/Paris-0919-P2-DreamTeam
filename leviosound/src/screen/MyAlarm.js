@@ -3,12 +3,15 @@ import './MyAlarm.css'
 
 const MyAlarm = () => {
     return (
-        <div class="container">
-      <div class="menu">My Alarm</div>
-      <div class="post">POST</div>
-      <div class="sidebar">SIDEBAR</div>
-      <div class="playlistWeather">Weather Playlist Weather</div>
-      <div class="footer">FOOTER</div>
+        <div className="container">
+      <div className="menu">My Alarm</div>
+      <div className="middle">
+      <div className="post pic">POST</div>
+      <div className="picWeather pic">Photo Weather</div>
+      <div className="sidebar pic">SIDEBAR</div>
+      </div>
+      <div className="playlistWeather">Weather Playlist Weather</div>
+      {/* <div className="footer">FOOTER</div> */}
     </div>
     )
 }

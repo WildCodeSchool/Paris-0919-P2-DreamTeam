@@ -1,11 +1,11 @@
 .container {
-    display: flex;
-    flex-flow: row wrap;
+    background:black;
+   
   }
   .container * {
-    flex: 1 100%;
+     flex:  100%;
     margin: 10px;
-    height: 150px;
+    height: 100%; 
     display: flex;
     color: white;
     text-align: center;
@@ -13,24 +13,51 @@
     flex-direction: column;
   }
   .container .menu {
-    height: 50px;
     background: coral;
+    margin-top:18vh;
+    height: 20vh;
+    margin-left: 42%;
+    margin-right: 42%;
+    border-radius: 25px;
   }
   .container .post {
     background: #2196F3;
-    flex: 3 0;
+    height: 20vh;
+    border-radius: 25px;
+    margin: 4%;
+  }
+  .pic {
+    display: flex;
+  }
+  .middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .picWeather {
+    background:grey;
+    height: 5vh;
+    padding: 18vw;
+    border-radius: 15px;
   }
   .container .sidebar {
-    flex: 1 0;
     background: orange;
+    height: 20vh;
+    margin: 4%;
+    
+    border-radius: 25px;
   }
-  
   .playlistWeather {
-    height: 50px;
+    height: 20vh;
     background: brown;
+    margin-left: 42%;
+    margin-right: 42%;
+    border-radius: 25px;
+    
   }
-  
-  .container .footer {
+  /* .container .footer {
     background: navy;
     height: 50px;
-  }
+    margin-top: 20vh;
+  } */
