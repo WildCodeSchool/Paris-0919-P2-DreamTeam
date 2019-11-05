@@ -4,11 +4,11 @@ import './MyAlarm.css'
 const MyAlarm = () => {
     return (
         <div className="container">
-      <div className="menu">My Alarm</div>
+      <div className="play1">Playlist #1</div>
       <div className="middle">
-      <div className="post pic">POST</div>
-      <div className="picWeather pic">Photo Weather</div>
-      <div className="sidebar pic">SIDEBAR</div>
+      <div className="post pic">Playlist #2</div>
+      <div className="picWeather pic">Weather</div>
+      <div className="sidebar pic">Playlist #3</div>
       </div>
       <div className="playlistWeather">Weather Playlist Weather</div>
       {/* <div className="footer">FOOTER</div> */}

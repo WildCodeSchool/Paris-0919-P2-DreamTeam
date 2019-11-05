@@ -12,18 +12,18 @@
     justify-content: center;
     flex-direction: column;
   }
-  .container .menu {
+  .container .play1 {
     background: coral;
     margin-top:18vh;
     height: 20vh;
-    margin-left: 42%;
-    margin-right: 42%;
-    border-radius: 25px;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 16px;
   }
   .container .post {
     background: #2196F3;
     height: 20vh;
-    border-radius: 25px;
+    border-radius: 16px;
     margin: 4%;
   }
   .pic {
@@ -38,22 +38,22 @@
   .picWeather {
     background:grey;
     height: 5vh;
-    padding: 18vw;
-    border-radius: 15px;
+    padding: 27vw;
+    border-radius: 2px;
   }
   .container .sidebar {
     background: orange;
     height: 20vh;
     margin: 4%;
     
-    border-radius: 25px;
+    border-radius: 16px;
   }
   .playlistWeather {
     height: 20vh;
     background: brown;
-    margin-left: 42%;
-    margin-right: 42%;
-    border-radius: 25px;
+    margin-left: 45%;
+    margin-right: 45%;
+    border-radius: 16px;
     
   }
   /* .container .footer {
