@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import Home from './screen/Home';
 import WeatherMusic from './screen/weatherMusic';
 import MyAlarm from './screen/MyAlarm';
+import Footer from './screen/Footer';
 import './App.css';
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route path="/weather" component={WeatherMusic} />
           <Route path="/MyAlarm" component={MyAlarm} />
+          <Footer/>
+      
         </Switch>
     </div>
   );
