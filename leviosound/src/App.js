@@ -8,7 +8,7 @@ import Header from "./components/Header"
 import Home from './screen/Home';
 import MyPlaylist from './screen/MyPlaylist';
 import MyAlarm from './screen/MyAlarm';
-import SearchBar from './components/SearchBar';
+import Form from './components/Form';
 import './App.css';
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           
         <Switch>
           <Route exact path="/" component={Home}> Home
-          <SearchBar />
+          <Form />
           </Route>
           <Route path="/weather" component={MyPlaylist} />
           <Route path="/MyAlarm" component={MyAlarm} />
