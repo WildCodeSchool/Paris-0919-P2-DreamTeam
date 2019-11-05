@@ -21,7 +21,7 @@
     background: #2196F3;
     flex: 1 0;
     height: 800px;
-    background-size: cover;
+    background-size: contain;
   }
   .container1 .sidebar {
     /* flex: 1 0; */

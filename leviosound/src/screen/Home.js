@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./eau.jpg"
+import Image from "./oxygen.png"
 
 import './Home.css';
 
