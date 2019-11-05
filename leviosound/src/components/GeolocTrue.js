@@ -1,6 +1,6 @@
 import React from "react"
-import WeatherDetails from "";
-import Form from "";
+import WeatherDetails from "./WeatherDetails";
+
 
 
 const API_KEY = "2d3b5ee080b7d4834734af849cb4b142";
@@ -50,65 +50,60 @@ class GeolocTrue extends React.Component {
        }
    }
 
-   getWeather = async (e) => {
-       e.preventDefault();
-       const city = e.target.elements.city.value;
-       const country = e.target.elements.country;
-       const api_call = await fetch (`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
-       const data = await api_call.json();
-       console.log(data)
-       if (data.cod === "404") {
-           this.setState({
-               temperature: undefined,
-               city: undefined,
-               country: undefined,
-               humidity: undefined,
-               description: undefined,
-               error: data.cod,
-               message: data.message,
-               main: undefined,
-
-           });
-       }
-       else if ( city && country) {
-           this.setState({
-               temperature: data.main.temp,
-               city: data.name,
-               country: data.sys.country,
-               humidity: data.main.humidity,
-               description: data.weather[0].description,
-               error: "",
-               message: "",
-               main: data.weather[0].main
-           });
-       }
-   }
-render() {
+   getWeather = async () => {
+    const lat = this.props.lat
+    const lon = this.props.lon
+    // const lat = Math.round(this.props.lat * 1000) / 1000
+    // const lon = Math.round(this.props.lon * 100) / 100
+    console.log("lat", lat)
+    console.log("lon", lon)
+    const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`);
+    const data = await api_call.json();
+    console.log(data)
+    if (data.cod === "404") {
+      this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Please enter correct values.",
+        main: undefined
+      });
+    }
+    else if (lat && lon) {
+      this.setState({
+        temperature: data.main.temp,
+        city: data.name,
+        country: data.sys.country,
+        humidity: data.main.humidity,
+        description: data.weather[0].description,
+        error: "",
+        main: data.weather[0].main
+      });
+    }
+  }
+  render() {
     console.log("state", this.state)
     return (
-        <div id="weather" className={this.state.background}>
-            <Form getWeather={this.getWeather} />
-            {this.state.city && this.state.country ?
-            <div id="weather__container">
-                <WeatherDetails
-                    temperature={this.state.temperature}
-                    humidity={this.state.humidity}
-                    city={this.state.city}
-                    country={this.state.country}
-                    description={this.state.description}
-                    error={this.state.error}
-                    message={this.state.message}
-                />
-            </div>
-             :   this.state.error ?
-            <div id="weather__container"><div className="weather__info">{this.state.message}</div></div>
-             : <div id="weather__container"><div className="weather__info">Type your location...</div></div>}
-                
-
-
-        </div>
+      <div id="weather" className={this.state.background}>
+        {this.state.city && this.state.country ?
+          <div className="weather__container">
+            <WeatherDetails
+              temperature={this.state.temperature}
+              humidity={this.state.humidity}
+              city={this.state.city}
+              country={this.state.country}
+              description={this.state.description}
+              error={this.state.error}
+              message={this.state.message}
+            />
+          </div>
+          : this.state.error ?
+            <div className="weather__info">{this.state.message}</div>
+            : <div className="weather__info">Unknown error</div>}
+      </div>
     )
-//  rajouter un formulaire. et une Div qui display les infos dans homepage/menu //
-}};
-
+  }
+}
 export default GeolocTrue;

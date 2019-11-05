@@ -1,6 +1,6 @@
 import React from "react"
-import WeatherDetails from "";
-import Form from "";
+import WeatherDetails from "./WeatherDetails";
+import Form from './Form';
 
 
 const API_KEY = "2d3b5ee080b7d4834734af849cb4b142";
@@ -38,7 +38,7 @@ class GeolocFalse extends React.Component {
    }     
 
 
-   
+
 //    classe CSS background y définir les arrières-plans et le style.css //
 
    componentDidUpdate(prevProps, prevState) {

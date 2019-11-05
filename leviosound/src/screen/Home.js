@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "./oxygen.png"
+import GeolocTrue from "./screen/GeolocTrue";
+
+
 
 import './Home.css';
 
@@ -12,7 +15,7 @@ const styles = {
 const Home = () => {
   return (
     <div class="container1">
-      <div class="menu">HOME</div>
+      <div class="menu"><GeolocTrue /></div>
       <div class="post" style={styles.coversContainer}> Album Covers </div>
       <div class="sidebar">TODAY'S PLAYLIST</div>
       <div class="sidebar">LYRICS</div>
