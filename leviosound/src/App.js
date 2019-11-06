@@ -4,6 +4,7 @@ import {
   Route,
 } from "react-router-dom";
 
+import Animate from "./screen/Animate"
 import Header from "./components/Header"
 import Home from './screen/Home';
 import MyPlaylist from './screen/MyPlaylist';
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Animate />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/weather" component={MyPlaylist} />
