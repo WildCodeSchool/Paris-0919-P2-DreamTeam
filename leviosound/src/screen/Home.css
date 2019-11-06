@@ -1,35 +1,33 @@
 .container1 {
-    display: flex;
-    flex-flow: row wrap;
-    background-color:black;
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  justify-content: space-between;
+}
+
+  .container1 .musicplayer {
+    margin: 5px;
+    background:#00adb5;
+    grid-area: 1/1/3/-7;
   }
-  .container1 * {
-    flex: 1 100%;
-    margin: 10px;
-    height: 150px;
-    display: flex;
-    color: black;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
+  .container1 .covers {
+    background:#00adb5;
+    background-size: cover;
+    background-attachment: fixed;
+    grid-area: 1/7/5/4;
+    background: center;
+    background-repeat: no-repeat;
+}
+  
+  .container1 .geolocation {
+    background: #00adb5;
+    margin: 5px;
+    grid-area: 1/10/3/8
+
   }
-  .container1 .menu {
-    height: 50px;
-    background: #ccc1ff;
-  }
-  .container1 .post {
-    background: #2196F3;
-    flex: 1 0;
-    height: 800px;
-    background-size: contain;
-  }
-  .container1 .sidebar {
-    /* flex: 1 0; */
-    background:#ffeafe;
-    height: 80 vw;
-  }
-  .container1 .footer {
-    background:#ccc1ff;
-    height: 50px;
+  .container1 .feature {
+    background: #00adb5;
+    margin: 5px;
   }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "./oxygen.png"
-import GeolocTrue from "./screen/GeolocTrue";
+import Geoloc from "../components/Geoloc";
+// import Form from "../components/Form"
 
 
 
@@ -15,12 +16,16 @@ const styles = {
 const Home = () => {
   return (
     <div class="container1">
-      <div class="menu"><GeolocTrue /></div>
-      <div class="post" style={styles.coversContainer}> Album Covers </div>
-      <div class="sidebar">TODAY'S PLAYLIST</div>
-      <div class="sidebar">LYRICS</div>
-      <div class="sidebar">ADD NEWS SONGS</div>
-      <div class="footer">FOOTER</div>
+      <div class="musicplayer">Music Player</div>
+      <div class="covers" style={styles.coversContainer}> Album Covers </div>
+
+      {/* <div class="feature">Feature</div> */}
+      <div class="geolocation">
+        {/* <Form /> */}
+        <Geoloc />
+      </div>
+      {/* <div class="feature">Feature</div> */}
+     
     </div>
   );
 };

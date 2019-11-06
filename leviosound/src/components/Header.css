@@ -3,7 +3,7 @@
   flex-direction: row;
   justify-content: flex-end;
   /* align-self: center; */
-  background-color: #9ea9f0;
+  background-color: #393e46;
   align-items: center;
 }
 
@@ -23,9 +23,9 @@ p.titre {
   /* flex-direction: row; */
   justify-self: flex-start;
   /* align-self: center; */
-  color: #553c8b;
+  color: #eeeeee;
   margin: 0px;
-  padding-right: 22vw;
+  padding-right: 21.5vw;
   /* position: absolute; */
   line-height: 1.1;
   letter-spacing: 0.03em;
