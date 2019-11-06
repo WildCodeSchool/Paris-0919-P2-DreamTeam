@@ -8,6 +8,7 @@
   align-items: center;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
+  margin-top: 15px;
 }
 
 ul {
@@ -19,6 +20,7 @@ ul {
 .header-itemMenu {
   margin: 0 10px 0 0;
   background-color: snow;
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 p.titre {
@@ -28,13 +30,15 @@ p.titre {
   /* align-self: center; */
   color: #eeeeee;
   margin: 0px;
-  padding-right: 16.7vw;
+  padding-right: 11.7vw;
   /* position: absolute; */
   line-height: 1.1;
   letter-spacing: 0.03em;
-  font-family: "Mystery Quest", cursive;
-  font-size: 5vw;
+  /* font-family: "Mystery Quest", cursive; */
+  font-family: 'Rock Salt', cursive;
+  font-size: 4vw;
   filter:drop-shadow(0 0 5px snow);
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 #myBtn {
