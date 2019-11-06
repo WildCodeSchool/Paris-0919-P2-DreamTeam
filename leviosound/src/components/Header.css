@@ -5,6 +5,7 @@
   /* align-self: center; */
   background-color: #393e46;
   align-items: center;
+  position: relative;
 }
 
 ul {
