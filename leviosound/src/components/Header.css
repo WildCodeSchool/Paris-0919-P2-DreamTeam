@@ -1,11 +1,13 @@
+
 .Header-nav {
+
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   /* align-self: center; */
-  background-color: #393e46;
   align-items: center;
   position: relative;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 ul {
@@ -26,13 +28,27 @@ p.titre {
   /* align-self: center; */
   color: #eeeeee;
   margin: 0px;
-  padding-right: 21.5vw;
+  padding-right: 16.7vw;
   /* position: absolute; */
   line-height: 1.1;
   letter-spacing: 0.03em;
   font-family: "Mystery Quest", cursive;
   font-size: 5vw;
   filter:drop-shadow(0 0 5px snow);
+}
+
+#myBtn {
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
 }
 
 @media screen and (max-width: 400px) {

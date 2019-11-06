@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "./oxygen.png"
+import Image from "./cover2.jpg"
 import Geoloc from "../components/Geoloc";
 // import Form from "../components/Form"
 
