@@ -105,7 +105,7 @@ render() {
 
         </div>
     )
-//  rajouter un formulaire. et une Div qui display les infos dans homepage/menu //
+//  rajouter un formulaire. et une Div qui display les infos dans homepage/menu, effets visuels supplémentaire / samples musicaux sur des retranscriptions audio( audio tracking ) //
 }};
 
 export default GeolocFalse;

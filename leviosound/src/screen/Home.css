@@ -27,6 +27,7 @@
     border: 4px inset rgba(0,0,0,0.5);
     border-left: none;
     border-right: none;
+    /* opacity: 0.5 */
 }
   
   .container1 .geolocation {
@@ -35,6 +36,7 @@
     grid-area: 1/10/3/8;
     opacity: 0.8;
     border: 2px inset rgba(0,0,0,0.5);
+    /* design avec jauge, pulse effect on music, tableau de bord de moto, balayer la palette de couleur sur le sitre*/
 
   }
   .container1 .feature {
