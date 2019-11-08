@@ -9,8 +9,10 @@ import Home from './screen/Home';
 import MyPlaylist from './screen/MyPlaylist';
 import MyAlarm from './screen/MyAlarm';
 import SearchBar from './components/SearchBar';
+
 import './App.css';
-function App() {
+
+const App = () => {
   return (
     <div className="App">
       <Header />
@@ -19,8 +21,9 @@ function App() {
           <Route exact path="/" component={Home}> Home
           <SearchBar />
           </Route>
-          <Route path="/weather" component={MyPlaylist} />
-          <Route path="/MyAlarm" component={MyAlarm} />
+            <Route path="/weather" component={MyPlaylist} />
+            <Route path="/MyAlarm" component={MyAlarm} />
+            {/* <Ring /> */}
         </Switch>
     </div>
   );
