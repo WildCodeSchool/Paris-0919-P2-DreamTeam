@@ -9,68 +9,74 @@
   text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
-  .container1 .musicplayer .player .player-control {
-    margin: 5px;
-    background: rgba(0,0,0,0.5);
-    grid-area: 1/1/3/-7;
-    opacity:0.8;
-    border: 2px inset rgba(0,0,0,0.5);
-  }
-  .container1 .covers {
-    background:rgba(0,0,0,0.5);
-    background-size: cover;
-    background-attachment: fixed;
-    grid-area: 1/7/5/4;
-    background: center;
-    background-repeat: no-repeat;
-    opacity: 0.8;
-    border: 4px inset rgba(0,0,0,0.5);
-    border-left: none;
-    border-right: none;
-    /* opacity: 0.5 */
+.container1 .musicplayer .player .player-control {
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  grid-area: 1/1/3/-7;
+  opacity: 0.8;
+  border: 2px inset rgba(0, 0, 0, 0.5);
 }
-  
-  .container1 .geolocation {
-    background: rgba(0,0,0,0.5);
-    margin: 5px;
-    grid-area: 1/10/3/8;
-    opacity: 0.8;
-    border: 2px inset rgba(0,0,0,0.5);
-    /* design avec jauge, pulse effect on music, tableau de bord de moto, balayer la palette de couleur sur le sitre*/
+.container1 .covers {
+  background: rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-attachment: fixed;
+  grid-area: 1/7/5/4;
+  background: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  border: 4px inset rgba(0, 0, 0, 0.5);
+  border-left: none;
+  border-right: none;
+  /* opacity: 0.5 */
+}
 
-  }
-  .container1 .feature {
-    background: #00adb5;
-    margin: 5px;
-  }
+.container1 .geolocation {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 5px;
+  grid-area: 1/10/3/8;
+  opacity: 0.8;
+  border: 2px inset rgba(0, 0, 0, 0.5);
+  /* design avec jauge, pulse effect on music, tableau de bord de moto, balayer la palette de couleur sur le sitre*/
+}
+.container1 .feature {
+  background: #00adb5;
+  margin: 5px;
+}
 
-  .fa-refresh:before {
-  color:white;
- 
+.fa-refresh:before {
+  color: white;
+}
+
+.fa-random:before {
+  color: white;
+}
+
+.fa-rotate-right:before, .fa-repeat:before {
+  color: white;
 }
 
 .fa-step-backward:before {
-  color:white;
+  color: white;
 }
 
 .fa-play:before {
-  color:white;
+  color: white;
 }
 
 .fa-pause:before {
-  color:white;
+  color: white;
 }
 
 .fa-step-forward:before {
-  color:white;
+  color: white;
 }
 
 .time-remaining {
-  color:white;
+  color: white;
 }
 
 .fa-step-forward:before {
-  color:white;
+  color: white;
 }
 
 .fa-step-forward:before {
@@ -78,13 +84,15 @@
 }
 
 .player .player-control .music-info .title {
-  color:white;
+  color: white;
+  filter: drop-shadow(0 0 5px snow);
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 .player .player-control .music-info .artist {
-  color:white;
+  color: white;
 }
 
 .fa-volume-up:before {
-  color:white;
+  color: white;
 }
