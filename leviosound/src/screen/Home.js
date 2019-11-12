@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "./tech.jpg"
 import Geoloc from "../components/Geoloc";
+import MusicPlayer from './MusicPlayer'
 // import Form from "../components/Form"
 
 
@@ -16,7 +17,7 @@ const styles = {
 const Home = () => {
   return (
     <div class="container1">
-      <div class="musicplayer">Music Player</div>
+      <div class="musicplayer"><MusicPlayer /></div>
       <div class="covers" style={styles.coversContainer}></div>
 
       {/* <div class="feature">Feature</div> */}
