@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import MusicPlayer from 'react-responsive-music-player';
-import './burroak1.png'
+import Image from './burroak1.png'
 import './burroakrevenge.mp3'
 
 
 const playlist = [
     {
       url: 'https://audio.jukehost.co.uk/b9f1ebff74ddef689977dcb6013c27339f6244b6/7c923005dff',
-      cover: './burroak1.png',
+      cover: `${Image}`,
       title: 'Burroak - Revenge',
       artist: [
         'Burr Oak',
