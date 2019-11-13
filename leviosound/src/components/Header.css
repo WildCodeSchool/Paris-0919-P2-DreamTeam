@@ -1,13 +1,13 @@
 
 .Header-nav {
 
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   flex-direction: row;
   justify-content: flex-end;
-  /* align-self: center; */
   align-items: center;
   position: relative;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   margin-top: 15px;
 }
 
@@ -18,41 +18,42 @@ ul {
 }
 
 .header-itemMenu {
+  grid-column-start: 3;
   margin: 0 10px 0 0;
   background-color: snow;
   text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 p.titre {
-  /* display: flex; */
-  /* flex-direction: row; */
+  margin: auto;
+  grid-column-start: 2;
   justify-self: flex-start;
-  /* align-self: center; */
   color: #eeeeee;
-  margin: 0px;
-  padding-right: 10.9vw;
-  /* position: absolute; */
   line-height: 1.1;
   letter-spacing: 0.03em;
-  /* font-family: "Mystery Quest", cursive; */
   font-family: 'Rock Salt', cursive;
-  font-size: 4vw;
+  font-size: 5.4vw;
   filter:drop-shadow(0 0 5px snow);
   text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
 #myBtn {
+  text-decoration: solid;
   font-size: 18px;
   padding: 10px;
   border: none;
-  background: #000;
+  background: rgba(0, 0, 0, 0.3);
   color: #fff;
   cursor: pointer;
+  border: 5px outset transparent;
+  border-radius: 0px 40px 0px 40px;
+
 }
 
 #myBtn:hover {
-  background: #ddd;
-  color: black;
+  background: rgba(0, 0, 0, 0.7);
+  border: 2px outset rgba(140, 155, 165, 0.76);
+  border-radius: 0px 40px 0px 40px;
 }
 
 @media screen and (max-width: 400px) {

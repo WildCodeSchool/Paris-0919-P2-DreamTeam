@@ -13,10 +13,10 @@ const Header = () => {
             <li className="header-itemMenu" button id="myBtn">Home</li>
           </Link>
           <Link to="/weather">
-            <li className="header-itemMenu" button id="myBtn">My Playlist</li>
+            <li className="header-itemMenu" button id="myBtn">Playlist</li>
           </Link>
           <Link to="/MyAlarm">
-            <li className="header-itemMenu" button id="myBtn" >My Alarm</li>
+            <li className="header-itemMenu" button id="myBtn" >Alarm</li>
           </Link>
         </ul>
       </div>
