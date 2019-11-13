@@ -38,7 +38,8 @@ p.titre {
   font-family: 'Rock Salt', cursive;
   font-size: 4vw;
   filter:drop-shadow(0 0 5px snow);
-  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5); */
+  animation: color-change-5x 8s linear infinite alternate both;
 }
 
 #myBtn {
@@ -59,5 +60,23 @@ p.titre {
   p.titre {
     padding-right: 0vw;
     font-size:6vw;
+  }
+}
+
+@keyframes color-change-5x {
+  0% {
+    color: #19dcea;
+  }
+  25% {
+    color: #b22cff;
+  }
+  50% {
+    color: #ea2222;
+  }
+  75% {
+    color: #f5be10;
+  }
+  100% {
+    color: #3bd80d;
   }
 }
