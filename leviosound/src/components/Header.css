@@ -8,7 +8,7 @@
   align-items: center;
   position: relative;
   background: rgba(0, 0, 0, 0.5);
-  margin-top: 15px;
+  margin-top: 50px;
 }
 
 ul {
@@ -38,8 +38,8 @@ p.titre {
   font-family: 'Rock Salt', cursive;
   font-size: 4vw;
   filter:drop-shadow(0 0 5px snow);
-  /* text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5); */
-  animation: color-change-5x 8s linear infinite alternate both;
+  text-shadow: 1px 4px 3px rgba(0, 0, 0, 0.5);
+  /* animation: color-change-5x 8s linear infinite alternate both; */
 }
 
 #myBtn {
@@ -63,20 +63,20 @@ p.titre {
   }
 }
 
-@keyframes color-change-5x {
+/* @keyframes color-change-5x {
   0% {
-    color: #19dcea;
+    color: white;
   }
   25% {
-    color: #b22cff;
+    color:#ffffffe7;
   }
   50% {
-    color: #ea2222;
+    color: rgba(255, 255, 255, 0.801);
   }
   75% {
-    color: #f5be10;
+    color: #ffffffc4;
   }
   100% {
-    color: #3bd80d;
+    color:rgba(255, 255, 255, 0.5);
   }
-}
+} */

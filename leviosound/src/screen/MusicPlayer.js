@@ -1,26 +1,48 @@
 import React, { Component } from 'react';
 import MusicPlayer from 'react-responsive-music-player';
-import Image from './burroak1.png'
+import Image1 from './burroak1.png'
 import './burroakrevenge.mp3'
 
 
 const playlist = [
     {
       url: 'https://audio.jukehost.co.uk/b9f1ebff74ddef689977dcb6013c27339f6244b6/7c923005dff',
-      cover: `${Image}`,
-      title: 'Burroak - Revenge',
+      cover: `${Image1}`,
+      title: 'Revenge',
       artist: [
         'Burr Oak',
       ]
     },
     {
-      url: 'path/to/mp3',
-      cover: 'path/to/jpg',
-      title: 'Bedtime Stories',
+      url: 'https://audio.jukehost.co.uk/b9f1ebff74ddef689977dcb6013c27339f6244b6/06250cacd91',
+      cover: 'https://i.ytimg.com/vi/X7atCxOnoMg/maxresdefault.jpg',
+      title: 'Intergalactic',
       artist: [
-        'Jay Chou'
+        'I Hate Models'
       ]
     }
+    // {
+    //   url: 'https://audio.jukehost.co.uk/b9f1ebff74ddef689977dcb6013c27339f6244b6/06250cacd91',
+    //   cover: 'https://i.ytimg.com/vi/X7atCxOnoMg/maxresdefault.jpg',
+    //   title: 'Intergalactic',
+    //   artist: [
+    //     'I Hate Models'
+    //   ]
+    // }{
+    //   url: 'https://audio.jukehost.co.uk/b9f1ebff74ddef689977dcb6013c27339f6244b6/06250cacd91',
+    //   cover: 'https://i.ytimg.com/vi/X7atCxOnoMg/maxresdefault.jpg',
+    //   title: 'Intergalactic',
+    //   artist: [
+    //     'I Hate Models'
+    //   ]
+    // }{
+    //   url: 'https://audio.jukehost.co.uk/b9f1ebff74ddef689977dcb6013c27339f6244b6/06250cacd91',
+    //   cover: 'https://i.ytimg.com/vi/X7atCxOnoMg/maxresdefault.jpg',
+    //   title: 'Intergalactic',
+    //   artist: [
+    //     'I Hate Models'
+    //   ]
+    // }
   ]
 
 
