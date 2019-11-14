@@ -10,7 +10,7 @@ const MyAlarm = () => {
         {/* <div className="menu">My Alarm</div>
         <div className="middle">
         <div className="post pic">POST</div> */}
-        <Ring />
+        <Ring /> 
         {/* <div className="sidebar pic">SIDEBAR</div> */}
         {/* </div> */}
         {/* // <div className="playlistWeather">Weather Playlist Weather</div> */}

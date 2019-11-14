@@ -9,6 +9,7 @@ import Home from './screen/Home';
 import MyPlaylist from './screen/MyPlaylist';
 import MyAlarm from './screen/MyAlarm';
 import SearchBar from './components/SearchBar';
+import Alarm from './components/Alarm'
 
 import './App.css';
 
@@ -23,6 +24,7 @@ const App = () => {
           </Route>
             <Route path="/weather" component={MyPlaylist} />
             <Route path="/MyAlarm" component={MyAlarm} />
+            {/* <Route path="/alarm" component={Alarm} /> */}
             {/* <Ring /> */}
         </Switch>
     </div>
