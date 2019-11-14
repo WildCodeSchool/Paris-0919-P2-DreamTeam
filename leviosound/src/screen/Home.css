@@ -117,7 +117,7 @@
   -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
   -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
-  animation: pulse 0.7s infinite cubic-bezier(0.66, 0, 0, 1);
+  animation: pulse 0.4s infinite cubic-bezier(0.66, 0, 0, 1);
   
 }
 .player .player-cover:hover 
