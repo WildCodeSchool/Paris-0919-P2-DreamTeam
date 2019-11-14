@@ -8,6 +8,7 @@ import Header from "./components/Header"
 import Home from './screen/Home';
 import MyPlaylist from './screen/MyPlaylist';
 import MyAlarm from './screen/MyAlarm';
+import VideoContainer from './screen/VideoContainer'
 import SearchBar from './components/SearchBar';
 import Alarm from './components/Alarm'
 
@@ -16,6 +17,7 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
+          <VideoContainer />
       <Header />
           
         <Switch>
@@ -26,6 +28,10 @@ const App = () => {
             <Route path="/MyAlarm" component={MyAlarm} />
             {/* <Route path="/alarm" component={Alarm} /> */}
             {/* <Ring /> */}
+
+          <Route path="/MyAlarm" component={MyAlarm} />
+          <Route path="/weather" component={MyPlaylist} />
+ 
         </Switch>
     </div>
   );
