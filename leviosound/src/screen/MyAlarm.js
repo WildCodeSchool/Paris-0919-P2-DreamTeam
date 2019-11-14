@@ -1,33 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import Ring from '../components/Ring';
+import Ring from "../components/Ring";
 
-import './MyAlarm.css' 
+import "./MyAlarm.css";
 
 const MyAlarm = () => {
-    return (
-        <div className="container">
-
-        {/* <div className="menu">My Alarm</div>
-        <div className="middle">
-        <div className="post pic">POST</div> */}
-        <Ring /> 
-        {/* <div className="sidebar pic">SIDEBAR</div> */}
-        {/* </div> */}
-        {/* // <div className="playlistWeather">Weather Playlist Weather</div> */}
-      {/* <Ring /> */}
-
-      <div className="play1">Playlist #1</div>
+  return (
+    <div className="container">
+      <div className="left">Playlist 1</div>
       <div className="middle">
-      <div className="post pic">Playlist #2</div>
-      <div className="picWeather pic">Weather</div>
-      <div className="sidebar pic">Playlist #3</div>
+        <div className="top">Playlist 2</div>
+        <Ring />
+        <div className="bottom">Playlist 4</div>
       </div>
-      <div className="playlistWeather">Weather Playlist Weather</div>
-      {/* <div className="footer">FOOTER</div> */}
-
+      <div className="right">Playlist 3</div>
     </div>
-    )
-}
 
-export default MyAlarm
+      
+  );
+};
+
+export default MyAlarm;

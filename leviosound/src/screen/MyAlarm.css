@@ -2,7 +2,7 @@
 
 .container {
     justify-content: center;
-    width: 60vw;
+    width: 100%;
     background-color: azure;
     display: flex;
     padding: 20px;
@@ -72,3 +72,24 @@
     height: 50px;
     margin-top: 20vh;
   } */
+
+  .left {
+    
+  }
+
+  .right {
+
+  }
+
+  .bottom {
+    background: navy;
+    height: 50px;
+    margin-top: 20vh;
+    color: white;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+
+  .top {
+
+  }
