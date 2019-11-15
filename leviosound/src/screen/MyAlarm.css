@@ -1,8 +1,8 @@
-.container {
+ .container {
     display: flex;
     flex-flow: row wrap;
   }
-  .container * {
+   .container * {
     flex: 1 100%;
     margin: 10px;
     height: 150px;
@@ -27,4 +27,4 @@
   .container .footer {
     background: #ccc1ff;
     height: 50px;
-  }
+  } 

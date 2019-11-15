@@ -7,13 +7,13 @@ import "./MyAlarm.css";
 const MyAlarm = () => {
   return (
     <div className="myalarmcontainer">
-      <div className="left">Playlist 1</div>
+      <div className="left"></div>
       <div className="middle">
-        <div className="top">Playlist 2</div>
+        <div className="top"></div>
         <Ring />
-        <div className="bottom">Playlist 4</div>
+        <div className="bottom"></div>
       </div>
-      <div className="right">Playlist 3</div>
+      <div className="right"></div>
     </div>
 
       

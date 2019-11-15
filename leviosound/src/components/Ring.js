@@ -30,7 +30,7 @@ class Ring extends React.Component {
 	  return (
 			<div className="globalRing">
 				<div className="titleAlarm">
-					Alarm
+					My Alarm
 				</div>
 				<input name="time" type="time" onChange={this.setAlarmTime}/>
 				<input type="submit" value="+" onClick={this.addAlarm}/>
